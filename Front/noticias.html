@@ -1,0 +1,53 @@
+<!DOCTYPE html5>
+
+<html>
+
+<head>
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="estilos/global.css" />
+	<link rel="stylesheet" href="estilos/estilo_noticia.css" />
+	<title>Cadastro de Noticia</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="logo" href="index.html">Logo</a>
+
+			<ul class="nav-list">
+				<li><a href="categorias.html">categoria</a></li>
+				<li><a href="noticias.html">noticia</a></li>
+				<li><input id="busca" placeholder="Busca"></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form class="corpo">
+			
+			<div class="conteiner">
+				<div class="msg inv">
+					ERRO> 
+				</div>
+				<div class="conteiner_input">
+					<label for="text_title">Titulo</label>
+					<input id="text_title" type="text" placeholder="titulo"><br>
+				</div>
+				<div class="conteiner_input">
+					<label for="text_texto">Texto</label>
+					<textarea id="text_texto" placeholder="texto da noticia"></textarea>
+				</div>
+				<div class="conteiner_input">
+					<label for="select_cat">Categorias </label>
+					<select id="select_cat">
+						<option disabled selected>categoria</option>
+					</select>
+				</div>
+				<input value="Cadastrar" type="submit"></input>
+			</div>
+			
+		</form>
+	</main>
+	<script src="script/script_not.js"></script>
+</body>
+
+</html>

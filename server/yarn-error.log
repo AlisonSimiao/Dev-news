@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add nodemon express
+
+PATH: 
+  /home/alison/.local/bin:/home/alison/bin:/home/alison/.local/bin:/home/alison/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/alison/.cache/yarn/v6/npm-chokidar-3.5.3-1cf37c8707b932bd1af1ae22c0432e2acd1903bd-integrity/node_modules/chokidar/.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

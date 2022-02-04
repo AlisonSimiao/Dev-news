@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="estilos/global.css" />
+	<link rel="stylesheet" href="estilos/estilo_categoria.css" />
+	
+	<title>Cadastro de categorias</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="logo" href="index.html">Logo</a>
+			<ul class="nav-list">
+				<li><a href="categorias.html">categoria</a></li>
+				<li><a href="noticias.html">noticia</a></li>
+				<li><input id="busca" placeholder="Busca"></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="corpo">
+			<form action="localhost:3000/api/cat"  method="post" class="conteiner">
+				<div class="msg inv">
+					ERRO> 
+				</div>
+				<div class="conteiner_input">
+					<label for="text_cat">categoria</label>
+					<input id="text_cat" type="text" name="categoria" placeholder="categoria">
+				</div>
+				<input id="cadastro" type="submit" value="Cadastrar"/>
+			</form>
+		</div>
+	</main>
+	<script src="script/script_cat.js"></script>
+</body>
+
+</html>
