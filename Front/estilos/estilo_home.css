@@ -14,7 +14,7 @@ $txt-color:   #DCE3E7;
 }
 
 .noticia{
-		
+	position: relative;
 	width: 30%;
 	min-height: 500px;
 
@@ -40,10 +40,20 @@ hr{
 }
 
 .titulo{
-	font-size: 15;
+	font-size: 0.8rem;
 	color: #9CC9E3;
 }
 
+.close{
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	color: #DCE3E7;
+	font-weight: 800;
+	background-color: rgb(233, 8, 8);
+	border-radius: 50%;
+	padding: 5px 10px;
+}
 .noticia span{
 	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 15;
